@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <head>
     <title>Cake do Sonho/Administrador</title>
+    <link rel="stylesheet" href="css/style.css"
     <meta charset="utf8" />
 
 </head>
-<body style="background-color: #ED9F8E;">
+<body>
     <header>
-        <h1 style="text-align: center;"> Cake do Sonho</h1>
-    <p style="text-align: center;">Bolos & Cia</p>
-</header>
+        <nav>
+            <a class="logo" href="index.html">Cake do Sonho</a>
+            <ul class="navList">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="detalhes.html">Detalhes</a></li>
+                <li><a href="autor.html">Autor</a></li>
+                <li><a href="Administrador.html">Administrador</a></li>
+            </ul>
+        </nav>
+    </header>
 <main>
     <form action="">
         <label for="usuario">Usuario</label>
-        <input type="text" id="usuario" name="usuario"
+        <input type="text" id="usuario" name="usuario" />
 
         <label for="senha">Senha</label>
         <input type="password" id="senha" name="senha">
@@ -26,11 +34,12 @@
     <input type="text" id="modelo" name="modelo" required>
     <br>
     
-    <select id="tamanho" name="tamanho"
+    <select id="tamanho" name="tamanho">
     <option value="10cm">10cm</option>
     <option value="15cm">15cm</option>
     <option value="17cm">17cm</option>
     <option value="20cm">20cm</option>
     <option value="25cm">25cm</option>
+    </select>
 
 </main>
